@@ -1,0 +1,12 @@
+
+- Make sure your Roku is in development mode
+    - http://sdkdocs.roku.com/display/RokuSDKv48/Developer+Guide#DeveloperGuide-70LoadingandRunningyourApplicationWalkthrough
+    - Note: After firmware updates, you will often have to reenable developer mode.
+- To build
+    - Get the IP address of your Roku from Settings > Network Settings
+    - From the command line, run export ROKU_DEV_TARGET=10.0.1.22
+        - You can also add it to your .bashrc file
+    - Run make install
+        - make install will automatically sideload the app into your Roku, and open the app.
+        - if the app doesn't open, telnet into the Roku device on port 8085
+            - ex. telnet 10.0.1.22 8085
