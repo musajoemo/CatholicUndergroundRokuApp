@@ -1,0 +1,12 @@
+manifest
+title=Catholic Underground
+subtitle=Faith Gone Digital
+screensaver_title=Catholic Underground
+screensaver_private=1
+mm_icon_focus_hd=pkg:/images/MainMenu.png
+mm_icon_side_hd=pkg:/images/MainMenu.png
+mm_icon_focus_sd=pkg:/images/MainMenu.png
+mm_icon_side_sd=pkg:/images/MainMenu.png
+major_version=1
+minor_version=0
+build_version=00000
