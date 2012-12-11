@@ -39,14 +39,11 @@ Sub springboard_reload_buttons(playstate as integer)
     if (playstate = 2)  then ' playing
         m.screen.AddButton(1, "pause playing")
        	m.screen.AddButton(2, "stop playing")
-        m.screen.SetBreadcrumbText("")
     else if (playstate = 1) then ' paused
       	m.screen.AddButton(1, "resume playing")
        	m.screen.AddButton(2, "stop playing")
-        m.screen.SetBreadcrumbText("")
     else ' stopped
        	m.screen.AddButton(1, "start playing")
-        m.screen.SetBreadcrumbText("")
     endif
 End Sub
 
